@@ -1,0 +1,27 @@
+{
+  "name": "Simple-HTTP-Assignment-Start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jup6039/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jup6039/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/jup6039/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
